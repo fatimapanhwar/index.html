@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #111;
+        }
+        .container{
+            background-color: gray;
+            width: 800px;
+            position: relative;
+            bottom: -80px;
+            border-radius: 9px;
+            padding: 30px;
+            height: 320px;
+            
+            margin: 0 auto;
+        }
+        .logo{
+  width:100px; height:40px;
+  background-color:#CCC;
+  color: #222;
+  font-weight:300;
+  font-style: oblique;
+  font-size:30px;
+  line-height:40px;
+  text-align:center;
+  margin: -20px auto 10px auto;
+  border-radius:40px;
+}
+        .row{
+            padding: 8px;
+            
+        }
+        button{
+            background-color: #333;
+            width: 40px;
+ color: #ccc;
+            padding-left: 2px;
+            height: 30px;
+        }
+        .back{
+            width:114px; font-size: 12px;
+
+        }
+        .tab{
+            width: 66px;
+        }
+        .cap{
+            width: 75px;
+        }
+        .space{
+            width: 150px;
+            
+        }
+        .space1{
+            margin-right: 43px;
+        }
+        .space2{
+            margin-right: 25px;
+        }
+        .home{
+            width: 85px;
+        }
+        .end{
+width: 60px;
+        }
+        .enter{
+            width: 50px;
+        }
+        .shift{
+            width: 40px;
+        }
+        .six{
+            margin-left: 155px;
+        }
+        .five{
+         margin-left: 110px;
+        }
+        .four{
+margin-left: 70px;
+        }
+        .two{
+margin-left:30px;
+        }
+        .three{
+margin-left: 55px;
+        }
+        .delete{
+width: 85px;
+        }
+        
+        .dual {font-size: 14px; line-height: 20px; width:30px; }
+
+        .slash{width:64px;}
+        button:active{
+            box-shadow: 5px 5px 10px #eee, -5px -5px 10px #474343;
+        }
+        button:hover{box-shadow:20px 20px 20px 20px steelblue; z-index:1000;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Lenovo</div>
+        <div class="row">
+            <div class="row one">
+                <button class="space1"> Esc</button>
+                <button>F1</button>
+                <button>F2</button>
+                <button>F3</button>
+                <button class="space2">F4</button>
+                <button>F5</button>
+                <button>F6</button>
+                <button>F7</button>
+                <button class="space2">F8</button>
+                <button>F9</button>
+                <button>F10</button>
+                <button>F11</button>
+                <button>F12</button>
+                <button class="home">Home</button>
+                <!-- <button class="end">End</button> -->
+                <!-- <button class="delete">Delete</button> -->
+
+            </div>
+            <div class="row two">
+                <button> ~<br>`</button>
+                <button>! <br>1</button>
+                <button> @<br>2</button>
+                <button> #<br>3</button>
+                <button> $<br>4</button>
+                <button> %<br>5</button>
+                <button> ^<br>6</button>
+                <button> &<br>7</button>
+                <button>* <br>8</button>
+                <button> (<br>9</button>
+                <button> )<br>0</button>
+                <button> _<br>-</button>
+                <button> +<br>=</button>
+                <button class="back">Backspace</button>
+
+            </div>
+            <div class="row three">
+                <button class="tab">    Tab</button>
+                <button> Q</button>
+                <button>W</button>
+                <button>E</button>
+                <button>R</button>
+                <button>T</button>
+                <button>Y</button>
+                <button>U</button>
+                <button>I</button>
+                <button>O</button>
+                <button>P</button>
+                <button class="dual">{ [<br></button>
+                <button class="dual">}]<br></button>
+                <button class="dual slash">|\<br></button>
+            </div>
+            <div class="row four">
+                <button class="cap"> Capslock</button>
+                <button>A</button>
+                <button>S</button>
+                <button>D</button>
+                <button>F</button>
+                <button>G</button>
+                <button>H</button>
+                <button>J</button>
+                <button>K</button>
+                <button>l</button>
+                <button>;</button>
+                <button>'</button>
+                <button class="enter">Enter</button>
+            </div>
+            <div class="row five">
+                <button class="shift"> Shift</button>
+                <button>Z</button>
+                <button>X</button>
+                <button>C</button>
+                <button>V</button>
+                <button>B</button>
+                <button>N</button>
+                <button>M</button>
+                <button>,</button>
+                <button>.</button>
+                <button>/</button>
+                <button class="shift">Shift</button>
+            </div>
+            <div class="row six">
+                <button>Fn</button>
+                <button>Ctrl</button>
+                <button>Alt</button>
+                <button class="space">space</button>
+                <button style="width: 60px;">AltGr </button>
+                <button style="width: 45px;">PrtSc</button>
+                <button style="width: 45px;">Ctrl</button>
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
